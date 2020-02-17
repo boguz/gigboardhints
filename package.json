@@ -1,0 +1,23 @@
+{
+  "name": "gigboardhints",
+  "version": "0.0.1",
+  "description": "A little website with some hints about Headrush Gigboard",
+  "main": "index.html",
+  "scripts": {
+    "clear:build": "if [ -d \"build\" ]; then rm -r build; fi; mkdir build",
+    "copy:html": "cp -f src/index.html build/",
+    "bundle:js": "rollup -c",
+    "print:end": "echo \"\\033[32m==================================================\\n==        Gigboardhints build successful        ==\\n==================================================\"",
+    "build:development": "npm run clear:build && npm run copy:html && npm run print:end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boguz/gigboardhints.git"
+  },
+  "author": "Luis Pato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boguz/gigboardhints/issues"
+  },
+  "homepage": "https://github.com/boguz/gigboardhints#readme"
+}
