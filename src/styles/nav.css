@@ -1,0 +1,40 @@
+.nav {
+    background-color: var(--color-grey-dark);
+    padding: 3rem 1.75rem 1.75rem;
+}
+
+.nav__title {
+    color: var(--color-yellow);
+    margin-bottom: 5rem;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: var(--color-grey-middle);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nav__link:before {
+    content: '';
+    height: 32px;
+    width: 32px;
+    background-color: pink;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.nav__item--amp .nav__link:before {
+    mask: url('./images/icon-cab.svg') no-repeat center;
+    -webkit-mask: url('./images/icon-cab.svg') no-repeat center;
+}

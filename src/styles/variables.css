@@ -1,0 +1,16 @@
+:root {
+    --font-thin: 300;
+    --font-normal: 400;
+    --font-black: 900;
+
+    --color-grey-dark: #2b2f34;
+    --color-grey-middle: #757a8d;
+    --color-grey-light: #d8d8d8;
+
+    --color-cyan: #2CEFFF;
+    --color-green: #50EF99;
+    --color-yellow: #F2D060;
+    --color-purple: #BD51D6;
+    --color-red: #F0513C;
+    --color-blue: #3693FF;
+}
