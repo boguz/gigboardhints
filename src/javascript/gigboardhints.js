@@ -1,3 +1,5 @@
+import { addNavEventListeners } from './nav.js'
+
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('working...')
+  addNavEventListeners()
 })
