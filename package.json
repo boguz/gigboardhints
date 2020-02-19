@@ -1,0 +1,38 @@
+{
+  "name": "gigboardhints",
+  "version": "0.0.1",
+  "description": "A simple website about the great gear that inspired the ones inside the Headrush Gigboard",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "rollup": "^1.31.1",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.6",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "scripts": {
+    "clean:build": "rm -rf ./build",
+    "bundle:js": "rollup -c",
+    "bundle:css": "postcss src/css/gigboardhints.css -o build/css/gigboardhints.css",
+    "bundle:all": "npm run bundle:js && npm run bundle:css",
+    "copy:html": "cp ./src/index.html ./build/index.html",
+    "print:end": "echo \"\\033[32m==============================================================\\n==              Gigboardhints build successful              ==\\n==============================================================\"",
+    "build": "npm run clean:build && npm run bundle:all && npm run copy:html && npm run --silent print:end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boguz/gigboardhints.git"
+  },
+  "author": "Boguz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boguz/gigboardhints/issues"
+  },
+  "homepage": "https://github.com/boguz/gigboardhints#readme"
+}
