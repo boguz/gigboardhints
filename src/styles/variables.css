@@ -13,4 +13,6 @@
     --color-purple: #BD51D6;
     --color-red: #F0513C;
     --color-blue: #3693FF;
+
+    --transition-normal: color .25s ease-out;
 }
