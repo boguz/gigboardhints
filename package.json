@@ -22,8 +22,10 @@
     "bundle:css": "postcss src/css/gigboardhints.css -o build/css/gigboardhints.css",
     "bundle:all": "npm run bundle:js && npm run bundle:css",
     "copy:html": "cp ./src/index.html ./build/index.html",
+    "copy:images": "cp -R ./src/images ./build/images",
+    "copy:all": "npm run copy:html && npm run copy:images",
     "print:end": "echo \"\\033[32m==============================================================\\n==              Gigboardhints build successful              ==\\n==============================================================\"",
-    "build": "npm run clean:build && npm run bundle:all && npm run copy:html && npm run --silent print:end"
+    "build": "npm run clean:build && npm run bundle:all && npm run copy:all && npm run --silent print:end"
   },
   "repository": {
     "type": "git",

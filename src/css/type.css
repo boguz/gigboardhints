@@ -3,6 +3,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-normal);
+    line-height: 1.5;
 }
 
 .text--bold {

@@ -7,6 +7,8 @@
     --color-grey-middle: #757a8d;
     --color-grey-light: #d8d8d8;
 
+    --color--background: #2F3741;
+
     --color-cyan: #2CEFFF;
     --color-green: #50EF99;
     --color-yellow: #F2D060;
@@ -15,4 +17,6 @@
     --color-blue: #3693FF;
 
     --transition-normal: color .25s ease-out;
+
+
 }
