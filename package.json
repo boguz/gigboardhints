@@ -25,7 +25,8 @@
     "copy:images": "cp -R ./src/images ./build/images",
     "copy:all": "npm run copy:html && npm run copy:images",
     "print:end": "echo \"\\033[32m==============================================================\\n==              Gigboardhints build successful              ==\\n==============================================================\"",
-    "build": "npm run clean:build && npm run bundle:all && npm run copy:all && npm run --silent print:end"
+    "build": "npm run clean:build && npm run bundle:all && npm run copy:all && npm run --silent print:end",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
