@@ -455,4 +455,760 @@ export const fxs = [
         song: "Life's been good so far",
         confirmed: false
     },
+    {
+        preset: "076 With Friends",
+        band: "The Beatles",
+        song: "With a little help from my friends",
+        confirmed: false
+    },
+    {
+        preset: "077 Little Thang",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "078 Pumpin Up",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "079 Fire in the Sky",
+        band: "Deep Purple",
+        song: "Smoke in the Water",
+        confirmed: false
+    },
+    {
+        preset: "080 Preacher Son",
+        band: "Aretha Franklin",
+        song: "Son of a preacher man",
+        confirmed: false
+    },
+    {
+        preset: "081 Georgia Blues",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "082 Missing Thrill",
+        band: "BB King",
+        song: "The Thrill is Gone",
+        confirmed: false
+    },
+    {
+        preset: "083 Tied 2 The Post",
+        band: "Allman Brothers",
+        song: "Whipping Post",
+        confirmed: false
+    },
+    {
+        preset: "084 Jumping Swing",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "085 Link Rock",
+        band: "Link Wray",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "086 MDRN CHCKN Pick",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "087 Rockabilly",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "088 Swamp",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "089 Texas Blues",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "090 Baldwin Burger",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "091 Throw Ur Boat",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "092 10-Cent Coming",
+        band: "Pantera",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "093 10-Cent Flood",
+        band: "Pantera",
+        song: "Floods",
+        confirmed: false
+    },
+    {
+        preset: "094 10-Cent Gates",
+        band: "Pantera",
+        song: "Gates",
+        confirmed: false
+    },
+    {
+        preset: "095 10-Cent Jukebox",
+        band: "Pantera",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "096 Cold November",
+        band: "Guns and Roses",
+        song: "November Rain",
+        confirmed: false
+    },
+    {
+        preset: "097 Nice Child",
+        band: "Guns and Roses",
+        song: "Sweet Child of Mine",
+        confirmed: false
+    },
+    {
+        preset: "098 Mr C's Lead",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "099 No more Cryin",
+        band: "Ozzy Osbourne",
+        song: "No more Tears",
+        confirmed: false
+    },
+    {
+        preset: "100 Tony's Metal",
+        band: "Black Sabbath",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "101 Iron Men",
+        band: "Black Sabbath",
+        song: "Iron Man",
+        confirmed: false
+    },
+    {
+        preset: "102 Lunar Barking",
+        band: "Ozzy Osbourne",
+        song: "Barking at the Moon",
+        confirmed: false
+    },
+    {
+        preset: "103 Black Fade",
+        band: "Metallica",
+        song: "Fade to Black",
+        confirmed: false
+    },
+    {
+        preset: "104 One Ballad CLN",
+        band: "Metallica",
+        song: "One (Clean)",
+        confirmed: false
+    },
+    {
+        preset: "105 One Ballad",
+        band: "Metallica",
+        song: "One",
+        confirmed: false
+    },
+    {
+        preset: "106 Sad Truth",
+        band: "Metallica",
+        song: "Sad but true",
+        confirmed: false
+    },
+    {
+        preset: "107 Djent Djent",
+        band: "Meshuggah",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "108 Girls x 3",
+        band: "motley Crue",
+        song: "Girls, girls, girls",
+        confirmed: false
+    },
+    {
+        preset: "109 Hot Sticky",
+        band: "Def Leppard",
+        song: "Pour some sugar on me",
+        confirmed: false
+    },
+    {
+        preset: "110 Iron Troops",
+        band: "Iron Maden",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "111 Mega Metal",
+        band: "Megadeath",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "112 Mosh",
+        band: "Anthrax",
+        song: "Caught in a Mosh",
+        confirmed: false
+    },
+    {
+        preset: "113 Red Rain",
+        band: "Peter Gabriel",
+        song: "Red Rain",
+        confirmed: false
+    },
+    {
+        preset: "114 Slaughter",
+        band: "Judas Priest",
+        song: "Take your daughter to the slaughter",
+        confirmed: false
+    },
+    {
+        preset: "115 Wizard Metal",
+        band: "Black Sabbath",
+        song: "The Wizzard",
+        confirmed: false
+    },
+    {
+        preset: "116 Take me Home CLN",
+        band: "Phil Collins",
+        song: "Take me Home (Clean)",
+        confirmed: false
+    },
+    {
+        preset: "117 Take me Home",
+        band: "Phil Collins",
+        song: "Take me Home",
+        confirmed: false
+    },
+    {
+        preset: "118 Marching Bulls",
+        band: "Rage Agains The Machine",
+        song: "Bulls on Parade",
+        confirmed: false
+    },
+    {
+        preset: "119 Perfect RX",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "120 RT95 Love song",
+        band: "Stone Template Pilots",
+        song: "Interstate Love Song",
+        confirmed: false
+    },
+    {
+        preset: "121 Wont do it",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "121 Xtreme alien",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "122 Xtreme Alien",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "123 Hipster Jazz",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "124 Keep Believing",
+        band: "Journey",
+        song: "Don't stop believing",
+        confirmed: false
+    },
+    {
+        preset: "125 Love Sacrifice",
+        band: "Foreigner",
+        song: "Cold as Ice",
+        confirmed: false
+    },
+    {
+        preset: "126 Summer Boys",
+        band: "Don Henley",
+        song: "Boys of Summer",
+        confirmed: false
+    },
+    {
+        preset: "127 Summer Soloboys of Summer",
+        band: "Don Henley",
+        song: "Boys of summer (Solo)",
+        confirmed: false
+    },
+    {
+        preset: "128 If you can run",
+        band: "David Bowie",
+        song: "Dance",
+        confirmed: false
+    },
+    {
+        preset: "129 If you can say solo",
+        band: "David Bowie",
+        song: "Dance (Solo)",
+        confirmed: false
+    },
+    {
+        preset: "130 Be Quiet N Dance",
+        band: "Aerosmith",
+        song: "Shutup and dance with me",
+        confirmed: false
+    },
+    {
+        preset: "131 Little Old Place",
+        band: "B52s",
+        song: "Love Shack",
+        confirmed: false
+    },
+    {
+        preset: "132 Lukes Blues",
+        band: "Steve Lukather",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "133 Callin Blonde",
+        band: "Blondie",
+        song: "Call me",
+        confirmed: false
+    },
+    {
+        preset: "134 La Cork Rock",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "135 La Cork Solo",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "136 Funky Bruno",
+        band: "Bruno Mars",
+        song: "Uptown Funk",
+        confirmed: false
+    },
+    {
+        preset: "137 Up All Night",
+        band: "Daft Punk",
+        song: "Lucky",
+        confirmed: false
+    },
+    {
+        preset: "138 Mom Spaghetti",
+        band: "Eminem",
+        song: "Lose Yourself",
+        confirmed: false
+    },
+    {
+        preset: "139 Richie's Shot",
+        band: "Bon Jovi",
+        song: "Livin on a Prayer",
+        confirmed: false
+    },
+    {
+        preset: "140 Fusion Solo",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "141 Sundays",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "142 Smooth Lead",
+        band: "Santana",
+        song: "Smooth",
+        confirmed: false
+    },
+    {
+        preset: "143 Fa Fa Fa Fa Fa",
+        band: "Talking Heads",
+        song: "Psycho Killer",
+        confirmed: false
+    },
+    {
+        preset: "144 Show Me",
+        band: "Peter Frampton",
+        song: "Show me the way",
+        confirmed: false
+    },
+    {
+        preset: "145 Thrilling Solo",
+        band: "Michael Jackson",
+        song: "Thriller (Solo)",
+        confirmed: false
+    },
+    {
+        preset: "146 Power Slapback",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "147 Ill be Watching 1",
+        band: "Police",
+        song: "Every breath you take",
+        confirmed: false
+    },
+    {
+        preset: "148 Ill be watching 2",
+        band: "Police",
+        song: "Every breath you take",
+        confirmed: false
+    },
+    {
+        preset: "149 Blues Flanger",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "150 Red Light",
+        band: "Police",
+        song: "Roxanne",
+        confirmed: false
+    },
+    {
+        preset: "151 Stray Town",
+        band: "Brian Setzer",
+        song: "Rock this town",
+        confirmed: false
+    },
+    {
+        preset: "152 80'x Vegan",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "153 Full Fuzz",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "154 PJ Grunge",
+        band: "Pearl Jam",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "155 Smelly Tean",
+        band: "Nirvana",
+        song: "Smells like teen spirit",
+        confirmed: false
+    },
+    {
+        preset: "156 Memoria",
+        band: "Ghost",
+        song: "Memoria",
+        confirmed: false
+    },
+    {
+        preset: "157 Munkey Grunge",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "158 Mighty Mighty",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "159 No Crystal Ball",
+        band: "Sublime",
+        song: "Santeria",
+        confirmed: false
+    },
+    {
+        preset: "160 Up the flagpole",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "161 Spoke in Class",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "162 Irish Pride",
+        band: "U2",
+        song: "Pride in the name of love",
+        confirmed: false
+    },
+    {
+        preset: "163 Ken's Freq Out",
+        band: "REM",
+        song: "What's the frequency Kenneth",
+        confirmed: false
+    },
+    {
+        preset: "164 OC Ska Punk",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "165 Irish New Year",
+        band: "U2",
+        song: "New Year's Day",
+        confirmed: false
+    },
+    {
+        preset: "166 Woohoo!",
+        band: "Blur",
+        song: "Song 2",
+        confirmed: false
+    },
+    {
+        preset: "167 Dreamy Tweed",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "168 Creepy",
+        band: "Radiohead",
+        song: "Creep",
+        confirmed: false
+    },
+    {
+        preset: "169 Apologies",
+        band: "Nirvana",
+        song: "All Apologies",
+        confirmed: false
+    },
+    {
+        preset: "170 Jalapeno",
+        band: "red Hot Chilli Peppers",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "171 Surfin Lobster",
+        band: "B52s",
+        song: "Rock Lobster",
+        confirmed: false
+    },
+    {
+        preset: "172 Stadium Rock",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "173 RB-Red Rock",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "174 Ballad Phaser",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "175 Country Solo",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "176 Funky Wah",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "177 Born and Wild",
+        band: "Steppenwolf",
+        song: "Born to be Wild",
+        confirmed: false
+    },
+    {
+        preset: "178 Bright to see",
+        band: "Under Oath",
+        song: "Too Bright to See, Too Loud to Hear",
+        confirmed: false
+    },
+    {
+        preset: "179 Jake's Soul",
+        band: "Sam and Dave",
+        song: "Soul Man",
+        confirmed: false
+    },
+    {
+        preset: "180 100, 200",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "181 Mars Spiders",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "182 Stayin Together",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "183 Steel Reel",
+        band: "Steely Dan",
+        song: "Reeling in the Years",
+        confirmed: false
+    },
+    {
+        preset: "184 Dark Magic",
+        band: "Santana",
+        song: "Black Magic Woman",
+        confirmed: false
+    },
+    {
+        preset: "185 Here I come",
+        band: "Fergie",
+        song: "Here I come",
+        confirmed: false
+    },
+    {
+        preset: "186 Men are back",
+        band: "Thin Lizzy",
+        song: "Boys are back",
+        confirmed: false
+    },
+    {
+        preset: "187 Bad Bones",
+        band: "George Thorogood",
+        song: "Bad to the Bone",
+        confirmed: false
+    },
+    {
+        preset: "188 Bahston",
+        band: "Boston",
+        song: "More than Feelings",
+        confirmed: false
+    },
+    {
+        preset: "189 Tempting",
+        band: "Squeeze",
+        song: "Tempted by the Fruit of Another",
+        confirmed: false
+    },
+    {
+        preset: "190 Sly Dance",
+        band: "Sly and the Family Stone",
+        song: "Dance to the Music",
+        confirmed: false
+    },
+    {
+        preset: "191 Rollin' Papa",
+        band: "The Temptations",
+        song: "Papa was a Rollin Stone",
+        confirmed: false
+    },
+    {
+        preset: "192 Brick Solo",
+        band: "Pink Floyd",
+        song: "Another Brick in the Wall (Solo)",
+        confirmed: false
+    },
+    {
+        preset: "193 Brick CLN",
+        band: "Pink Floyd",
+        song: "Another Brick in the Wall (Clean)",
+        confirmed: false
+    },
+    {
+        preset: "194 Ska Drop",
+        band: "The Specials",
+        song: "pressure Drop",
+        confirmed: false
+    },
+    {
+        preset: "195 Sally Rides",
+        band: "Lou Reed",
+        song: "Ride Sally Ride",
+        confirmed: false
+    },
+    {
+        preset: "196 Funky Light",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "197 Tiger's Eye",
+        band: "Survivor",
+        song: "Eye of the Tiger",
+        confirmed: false
+    },
+    {
+        preset: "198 Sock It 2 Me",
+        band: "Pat Beneath",
+        song: "Hit me with your best shot",
+        confirmed: false
+    },
+    {
+        preset: "199 A Big Teaser",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "200 Cigar Bar",
+        band: "Brad Paisley",
+        song: "Cigar Song",
+        confirmed: false
+    },
 ]
