@@ -305,4 +305,154 @@ export const fxs = [
         song: "Born on the Bayou",
         confirmed: false
     },
+    {
+        preset: "051 It aint me",
+        band: "Credence Clearwater Revival",
+        song: "Fortunate Son",
+        confirmed: false
+    },
+    {
+        preset: "052 Heard it thru",
+        band: "Credence Clearwater Revival",
+        song: "Heard of through the Grape Vine",
+        confirmed: false
+    },
+    {
+        preset: "053 River Rol",
+        band: "Credence Clearwater Revival",
+        song: "Proud Mary",
+        confirmed: false
+    },
+    {
+        preset: "054 Give u my love",
+        band: "Led Zeppelin",
+        song: "Whole Lotta Love",
+        confirmed: false
+    },
+    {
+        preset: "055 Holy house",
+        band: "Led Zeppelin",
+        song: "Houses of the Holy",
+        confirmed: false
+    },
+    {
+        preset: "056 Purple James",
+        band: "Jimi Hendrix",
+        song: "Purple Haze",
+        confirmed: false
+    },
+    {
+        preset: "057 Like a Fox",
+        band: "Jimi Hendrix",
+        song: "Foxy Lady",
+        confirmed: false
+    },
+    {
+        preset: "058 Hey Joseph",
+        band: "Jimi Hendrix",
+        song: "Hey Joe",
+        confirmed: false
+    },
+    {
+        preset: "059 Windy Mary",
+        band: "Jimi Hendrix",
+        song: "wind Cries Mary",
+        confirmed: false
+    },
+    {
+        preset: "060 Wah Voodoo",
+        band: "Jimi Hendrix",
+        song: "Voodoo Child",
+        confirmed: false
+    },
+    {
+        preset: "061 Brownstone",
+        band: "The Rolling Stones",
+        song: "Brown Sugar",
+        confirmed: false
+    },
+    {
+        preset: "062 Honky Tonk Blues",
+        band: "The Rolling Stones",
+        song: "honkytonk Woman",
+        confirmed: false
+    },
+    {
+        preset: "063 Gas Gas Gas",
+        band: "The Rolling Stones",
+        song: "Jumping Jack Flash",
+        confirmed: false
+    },
+    {
+        preset: "064 Not Satisfied",
+        band: "The Rolling Stones",
+        song: "Satisfaction",
+        confirmed: false
+    },
+    {
+        preset: "065 Joe's Dream",
+        band: "Aerosmith",
+        song: "Dream On",
+        confirmed: false
+    },
+    {
+        preset: "066 Sweet Emoji",
+        band: "Aerosmith",
+        song: "Sweet Emotion",
+        confirmed: false
+    },
+    {
+        preset: "067 Escaped Bird",
+        band: "Lynyrd Skynyrd",
+        song: "Free Bird",
+        confirmed: false
+    },
+    {
+        preset: "068 Bench Sinnin",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "069 Boom x4",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "070 Green Veggies",
+        band: "Booker T and the MGs",
+        song: "Green Onions",
+        confirmed: false
+    },
+    {
+        preset: "071 Mussy Blues",
+        band: "The Moody Blues",
+        song: "Nights in White Satin",
+        confirmed: false
+    },
+    {
+        preset: "072 Sunrise House",
+        band: "The Animals",
+        song: "House of the rising Sun",
+        confirmed: false
+    },
+    {
+        preset: "073 Jessica's Solot",
+        band: "Allman Brothers",
+        song: "Jessica",
+        confirmed: false
+    },
+    {
+        preset: "074 John be great",
+        band: "Chuck Berry",
+        song: "Johnny be good",
+        confirmed: false
+    },
+    {
+        preset: "075 Life is good",
+        band: "joe Walsh",
+        song: "Life's been good so far",
+        confirmed: false
+    },
 ]
