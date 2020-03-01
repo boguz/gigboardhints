@@ -1,4 +1,4 @@
-const amps = [
+export const amps = [
     {
         headrushName: "59 Deluxe Gain Mod",
         brand: "Fender",
