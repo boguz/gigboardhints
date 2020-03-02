@@ -1211,4 +1211,64 @@ export const fxs = [
         song: "Cigar Song",
         confirmed: false
     },
+    {
+        preset: "201 Take a Load Off",
+        band: "The Band",
+        song: "The Weight",
+        confirmed: false
+    },
+    {
+        preset: "202 Cali Hotel F",
+        band: "The Eagles",
+        song: "Hotel California (Felder)",
+        confirmed: false
+    },
+    {
+        preset: "203 Cali Hotel W",
+        band: "The Eagles",
+        song: "Hotel California (Walsh)",
+        confirmed: false
+    },
+    {
+        preset: "204 Pink Time",
+        band: "Pink Floyd",
+        song: "Time",
+        confirmed: false
+    },
+    {
+        preset: "205 I Have Become",
+        band: "Pink Floyd",
+        song: "Comfortably Numb",
+        confirmed: false
+    },
+    {
+        preset: "206 Revofuzz",
+        band: "The Beatles",
+        song: "Revolution",
+        confirmed: false
+    },
+    {
+        preset: "207 Just for One Day",
+        band: "David Bowie",
+        song: "Heroes",
+        confirmed: false
+    },
+    {
+        preset: "208",
+        band: "Brown Eyes",
+        song: "Brown Eyes Girl",
+        confirmed: false
+    },
+    {
+        preset: "209 Your Pet Fuzz",
+        band: "-",
+        song: "-",
+        confirmed: false
+    },
+    {
+        preset: "210 Mother Mother",
+        band: "Danzig",
+        song: "Mother",
+        confirmed: false
+    },
 ]
