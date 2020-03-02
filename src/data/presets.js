@@ -1271,4 +1271,280 @@ export const fxs = [
         song: "Mother",
         confirmed: false
     },
+  {
+    preset: "211 Feeling so Good",
+    band: "James Brown",
+    song: "I Feel Good",
+    confirmed: false
+  },
+  {
+    preset: "212 Do What You Want",
+    band: "Lady Gaga",
+    song: "Do What You Want",
+    confirmed: false
+  },
+  {
+    preset: "213 Better Birds",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "214 get That Feeling",
+    band: "Black Eyes Peas",
+    song: "I Gotta Feeling",
+    confirmed: false
+  },
+  {
+    preset: "215 Py Clean",
+    band: "Peavey Amp",
+    song: "Clean",
+    confirmed: false
+  },
+  {
+    preset: "216 Py Dirty",
+    band: "Peavey Amp",
+    song: "Dirty",
+    confirmed: false
+  },
+  {
+    preset: "217 Watching Tides",
+    band: "Otis Redding",
+    song: "Sittin on the Dock of the Bay",
+    confirmed: false
+  },
+  {
+    preset: "218 Need Somebody",
+    band: "Jefferson Airplane",
+    song: "Need somebody to love",
+    confirmed: false
+  },
+  {
+    preset: "219 Robby's Fire",
+    band: "The Dorrs",
+    song: "Light My Fire (Krieger)",
+    confirmed: false
+  },
+  {
+    preset: "220 Prisionbreak",
+    band: "thin Lizzy",
+    song: "jail Break",
+    confirmed: false
+  },
+  {
+    preset: "221 1 More Chance",
+    band: "Exile",
+    song: "Give me One more Change",
+    confirmed: false
+  },
+  {
+    preset: "222 Say you will",
+    band: "Foreigner",
+    song: "Say you will",
+    confirmed: false
+  },
+  {
+    preset: "223 Plexi Rock",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "224 Clean Heaven",
+    band: "Led Zeppelin",
+    song: "Stairway to Heaven",
+    confirmed: false
+  },
+  {
+    preset: "225 Whammy Shred",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "226 Funk It",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "227 Fusion Rock",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "228 Jazz Up",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "229 Heavy Rock Lead",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "230 Rotory Blues",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "231 Creamy Strat",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "232 The Gritt",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "233 Reznas Choice",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "234 Well Dressed",
+    band: "ZZ Top",
+    song: "Sharp Dressed",
+    confirmed: false
+  },
+  {
+    preset: "235 Crunchpressor",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "236 Bitfire",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "237 Echo park",
+    band: "Linkin Park",
+    song: "Lost in the Echo",
+    confirmed: false
+  },
+  {
+    preset: "238 Dories Blues",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "239 Clean Dream",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "240 Get Wet Later",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "241 Pedal Drive",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "242 Black",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "243 Blue",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "244 Bog",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "245 Chief",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "246 Heavy",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "247 Hi-Gain",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "248 Mark 8",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "249 Mayhem",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
+  {
+    preset: "",
+    band: "-",
+    song: "-",
+    confirmed: false
+  },
 ]
