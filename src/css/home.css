@@ -12,3 +12,163 @@
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+.home__buttons {
+    display: flex;
+}
+
+.home__button {
+    outline: none;
+    background-color: var(--color-grey-dark);
+    margin: 0 .25rem;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-grey-dark);
+    transition: border-color .25s ease-out;
+}
+
+.home__button:hover {
+    cursor: pointer;
+}
+
+.home__button-image {
+    background-color: var(--color-grey-middle);
+    height: 40px;
+    width: 40px;
+    transition: background-color .25s ease-out;
+}
+
+.home__button-text {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: var(--font-normal);
+    margin-top: .75rem;
+    color: var(--color-grey-middle);
+    pointer-events: none;
+    transition: color .25s ease-out;
+}
+
+/* AMPS BUTTON */
+.home__button-image--amps {
+    mask: url('../images/icon_amp.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button--amps:hover {
+    border: 1px solid var(--color-cyan);
+}
+
+.home__button--amps:hover .home__button-image {
+    background-color: var(--color-cyan);
+}
+
+.home__button--amps:hover .home__button-text {
+    color: var(--color-cyan);
+}
+
+/* CABS BUTTON */
+.home__button-image--cabs {
+    mask: url('../images/icon_cab.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button--cabs:hover {
+    border: 1px solid var(--color-green);
+}
+
+.home__button--cabs:hover .home__button-image {
+    background-color: var(--color-green);
+}
+
+.home__button--cabs:hover .home__button-text {
+    color: var(--color-green);
+}
+
+/* MICS BUTTON */
+.home__button-image--mics {
+    mask: url('../images/icon_mic.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button--mics:hover {
+    border: 1px solid var(--color-yellow);
+}
+
+.home__button--mics:hover .home__button-image {
+    background-color: var(--color-yellow);
+}
+
+.home__button--mics:hover .home__button-text {
+    color: var(--color-yellow);
+}
+
+/* FXS BUTTON */
+.home__button-image--fxs {
+    mask: url('../images/icon_pedal.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button-fxss:hover {
+    border: 1px solid var(--color-purple);
+}
+
+.home__button--fxs:hover .home__button-image {
+    background-color: var(--color-purple);
+}
+
+.home__button--fxs:hover .home__button-text {
+    color: var(--color-purple);
+}
+
+/* FXS BUTTON */
+.home__button-image--fxs {
+    mask: url('../images/icon_pedal.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button-fxs:hover {
+    border: 1px solid var(--color-red);
+}
+
+.home__button--fxs:hover .home__button-image {
+    background-color: var(--color-red);
+}
+
+.home__button--fxs:hover .home__button-text {
+    color: var(--color-red);
+}
+
+/* PRESETS BUTTON */
+.home__button-image--presets {
+    mask: url('../images/icon_presets.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.home__button--presets:hover {
+    border: 1px solid var(--color-purple);
+}
+
+.home__button--presets:hover .home__button-image {
+    background-color: var(--color-purple);
+}
+
+.home__button--presets:hover .home__button-text {
+    color: var(--color-purple);
+}
