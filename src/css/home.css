@@ -4,6 +4,12 @@
     align-items: center;
     justify-content: center;
     font-weight: var(--font-thin);
+    padding-top: 2rem;
+}
+
+.home__texts {
+    text-align: center;
+    margin-bottom: 6rem;
 }
 
 .home__text {
@@ -11,6 +17,16 @@
     color: var(--color-grey-light);
     font-size: 1rem;
     margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.home__text--link {
+    color: var(--color-yellow);
+    transition: opacity .25s ease-out;
+}
+
+.home__text--link:hover {
+    opacity: .75;
 }
 
 .home__buttons {
@@ -20,7 +36,7 @@
 .home__button {
     outline: none;
     background-color: var(--color-grey-dark);
-    margin: 0 .25rem;
+    margin: 0 .5rem;
     width: 120px;
     height: 120px;
     display: flex;
