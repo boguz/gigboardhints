@@ -43,15 +43,13 @@
 <main>
     <section class="home" id="home">
         <h1 class="home__title">
-            <img src="./images/gigboard_icon.svg" alt="">
-            <h1 class="nav__title"><span class="text--bold">GIGBOARD</span><span class="text--thin">HINTS</span></h1>
+            <img class="home__title-image" src="./images/gigboard_icon.svg" alt="">
+            <span class="home__title-text">
+                <span class="text--bold">GIGBOARD</span><span class="text--thin">HINTS</span>
+            </span>
         </h1>
 
-        <div class="home__texts">
-            <p class="home__text">The Headrush Gigboard is a great pedalboard with a lot of great amplifier, cabinet, microphone and effects models. But we have all at some point wondered what were the real pieces of gear that inspired the ones we have inside the Gigboard.</p>
-            <p class="home__text">This website is intended as a little guide to the gear and presets we have available inside the Gigboard, and it is a compilation of information found all over the internet.</p>
-            <p class="home__text">Wanna help us improve? You can do it <a href="#" class="home__text--link">here.</a></p>
-        </div>
+        <p class="home__text">Have you ever wondered what is the real gear behind the ones we have inside the Gigboard? Here is a little guide...</p>
 
         <div class="home__buttons">
             <button class="home__button home__button--amps">
@@ -75,8 +73,17 @@
                 <p class="home__button-text">presets</p>
             </button>
         </div>
+
+        <button class="disclaimer__open-button">Disclaimer</button>
     </section>
 </main>
+
+<div class="disclaimer__container">
+    <button class="disclaimer__close-button">x</button>
+    <div class="disclaimer__card">
+        <p class="disclaimer__text">I have no affiliation to any of the brands or products mentioned on this page. I created this website for myself, as an exercise to improve my programming skills, and then decided to hare it with other people who also might enjoy it. If there are ny problems with trademarsk, copyrights,..., please let me know and i will take care of it as soon as possible. All information provided here is either my own opinion or information i collected across the internet. None of it is official information.</p>
+    </div>
+</div>
 
 </body>
 </html>
