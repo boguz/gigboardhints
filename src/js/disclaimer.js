@@ -4,15 +4,15 @@
  *    - close when the 'disclaimer__close-button' is clicked
  */
 export const disclaimerInit = () => {    
-    const disclaimerContainer = document.querySelector('.disclaimer__container')
-    const disclaimerOpenButton = document.querySelector('.disclaimer__open-button')
-    const disclaimerCloseButton = document.querySelector('.disclaimer__close-button')
+	const disclaimerContainer = document.querySelector('.disclaimer__container')
+	const disclaimerOpenButton = document.querySelector('.disclaimer__open-button')
+	const disclaimerCloseButton = document.querySelector('.disclaimer__close-button')
     
-    disclaimerOpenButton && disclaimerOpenButton.addEventListener('click', () => {        
-        disclaimerContainer.setAttribute('visible', '')
-    })
+	disclaimerOpenButton && disclaimerOpenButton.addEventListener('click', () => {        
+		disclaimerContainer.setAttribute('visible', '')
+	})
 
-    disclaimerCloseButton && disclaimerCloseButton.addEventListener('click', () => {        
-        disclaimerContainer.removeAttribute('visible')
-    })
+	disclaimerCloseButton && disclaimerCloseButton.addEventListener('click', () => {        
+		disclaimerContainer.removeAttribute('visible')
+	})
 }

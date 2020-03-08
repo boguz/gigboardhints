@@ -6,10 +6,10 @@ import { presetsData } from '../data/presets'
 
 // Define Store initial value
 export const gigboardHintsStore = {
-    page: 'homePage',
-    ampsData,
-    cabsData,
-    micsData,
-    fxsData,
-    presetsData
+	page: 'homePage',
+	ampsData,
+	cabsData,
+	micsData,
+	fxsData,
+	presetsData
 }
