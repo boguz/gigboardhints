@@ -1,4 +1,4 @@
-export const mics = [
+export const micsData = [
     {
         headrushName: "Cond 67",
         brand: "Neumann",

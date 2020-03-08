@@ -19,29 +19,29 @@
     <h1 class="nav__title"><span class="text--bold">GIGBOARD</span><span class="text--thin">HINTS</span></h1>
 
     <ul class="nav__list">
-        <li class="nav__item nav__item--amps">
+        <li class="nav__item nav__item--amps" pageName="ampsPage">
             <a href="#" class="nav__link">Amps</a>
         </li>
-        <li class="nav__item nav__item--cabs">
+        <li class="nav__item nav__item--cabs" pageName="cabsPage">
             <a href="#" class="nav__link">Cabs</a>
         </li>
-        <li class="nav__item nav__item--mics">
+        <li class="nav__item nav__item--mics" pageName="micsPage">
             <a href="#" class="nav__link">Mics</a>
         </li>
-        <li class="nav__item nav__item--fxs">
+        <li class="nav__item nav__item--fxs" pageName="fxsPage">
             <a href="#" class="nav__link">FXs</a>
         </li>
-        <li class="nav__item nav__item--presets">
+        <li class="nav__item nav__item--presets" pageName="presetsPage">
             <a href="#" class="nav__link">Presets</a>
         </li>
-        <li class="nav__item nav__item--links">
+        <li class="nav__item nav__item--links" pageName="linksPage">
             <a href="#" class="nav__link">Links</a>
         </li>
     </ul>
 </nav>
 
 <main>
-    <section class="home" id="home">
+    <section class="home section" id="homePage" >
         <h1 class="home__title">
             <img class="home__title-image" src="./images/gigboard_icon.svg" alt="">
             <span class="home__title-text">
@@ -52,23 +52,23 @@
         <p class="home__text">Have you ever wondered what is the real gear behind the ones we have inside the Gigboard? Here is a little guide...</p>
 
         <div class="home__buttons">
-            <button class="home__button home__button--amps">
+            <button class="home__button home__button--amps" pageName="ampsPage">
                 <span class="home__button-image home__button-image--amps"></span>
                 <p class="home__button-text">amps</p>
             </button>
-            <button class="home__button home__button--cabs">
+            <button class="home__button home__button--cabs" pageName="cabsPage">
                 <span class="home__button-image home__button-image--cabs"></span>
                 <p class="home__button-text">cabs</p>
             </button>
-            <button class="home__button home__button--mics">
+            <button class="home__button home__button--mics" pageName="micsPage">
                 <span class="home__button-image home__button-image--mics"></span>
                 <p class="home__button-text">mics</p>
             </button>
-            <button class="home__button home__button--fxs">
+            <button class="home__button home__button--fxs" pageName="fxsPage">
                 <span class="home__button-image home__button-image--fxs"></span>
                 <p class="home__button-text">fxs</p>
             </button>
-            <button class="home__button home__button--presets">
+            <button class="home__button home__button--presets" pageName="presetsPage">
                 <span class="home__button-image home__button-image--presets"></span>
                 <p class="home__button-text">presets</p>
             </button>
@@ -76,6 +76,13 @@
 
         <button class="disclaimer__open-button">Disclaimer</button>
     </section>
+
+    <section id="ampsPage" class="section" hidden>Amps section</section>
+    <section id="cabsPage" class="section" hidden>Cabs section</section>
+    <section id="micsPage" class="section" hidden>Mics section</section>
+    <section id="fxsPage" class="section" hidden>FXs section</section>
+    <section id="presetsPage" class="section" hidden>Presets section</section>
+    <section id="linksPage" class="section" hidden>Links section</section>
 </main>
 
 <div class="disclaimer__container">

@@ -1,7 +1,7 @@
 .disclaimer__open-button {
     position: absolute;
-    bottom: 0rem;
-    right: 0;
+    bottom: 1rem;
+    right: 2rem;
     background: none;
     border: none;
     font-size: .75rem;

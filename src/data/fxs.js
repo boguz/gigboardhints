@@ -1,4 +1,4 @@
-export const fxs = [
+export const fxsData = [
     {
         headrushName: "8-bit Crush",
         brand: "Headrush",

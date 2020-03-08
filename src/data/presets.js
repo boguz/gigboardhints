@@ -1,4 +1,4 @@
-export const fxs = [
+export const presetsData = [
   {
     preset: "001 How does it feel",
     band: "Bob Dylan",

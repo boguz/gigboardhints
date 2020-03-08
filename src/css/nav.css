@@ -1,12 +1,20 @@
 .nav {
     background-color: var(--color-grey-dark);
     padding: 3rem 1.75rem 1.75rem;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .nav__title {
     color: var(--color-yellow);
     margin-bottom: 4rem;
 }
+
+.nav__title:hover {
+    cursor: pointer;
+} 
 
 .nav__list {
     list-style: none;

@@ -1,4 +1,4 @@
-export const cabs = [
+export const cabsData = [
     {
         headrushName: "1x8 Custom",
         brand: "Fender",
