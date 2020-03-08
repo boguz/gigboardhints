@@ -9,6 +9,8 @@ const store = gigboardHintsStore
 document.addEventListener('DOMContentLoaded', () => {
 	addEventListeners()
 	disclaimerInit()
+    
+	update()
 })
 
 // Add needed event listeners

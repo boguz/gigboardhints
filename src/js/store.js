@@ -6,7 +6,7 @@ import { presetsData } from '../data/presets'
 
 // Define Store initial value
 export const gigboardHintsStore = {
-	page: 'homePage',
+	page: 'ampsPage',
 	ampsData,
 	cabsData,
 	micsData,
