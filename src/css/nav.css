@@ -1,7 +1,7 @@
 .nav {
     background-color: var(--color-grey-dark);
     padding: 3rem 1.75rem 1.75rem;
-    position: absolute;
+    position: fixed;
     height: 100%;
     top: 0;
     left: 0;
