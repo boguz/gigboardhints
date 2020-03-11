@@ -7,3 +7,4 @@
 
 ### Ideas
 - add 'genre' to presets
+- improve the data sorting

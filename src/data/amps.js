@@ -115,7 +115,7 @@ export const ampsData = [
     headrushName: '67 Black Duo',
     brand: 'Fender',
     model: 'Twin Reverb Blackface Combo',
-    genre: ['clean'],
+    genre: ['Clean'],
     power: '-',
     confirmed: false
   },
@@ -131,7 +131,7 @@ export const ampsData = [
     headrushName: '67 Plexiglas Vari',
     brand: 'Marshall',
     model: 'Super Lead Plexi Head (Varic mod)',
-    genre: ['blues', 'rock'],
+    genre: ['Blues', 'Rock'],
     power: '-',
     confirmed: false
   },
@@ -220,7 +220,7 @@ export const ampsData = [
     brand: 'Mesa Boogie',
     model: 'Mark IIc+ Drive Channel',
     genre: ['Rock', 'Metal'],
-    power: '',
+    power: '-',
     confirmed: false
   },
   {
@@ -228,7 +228,7 @@ export const ampsData = [
     brand: 'Mesa Boogie',
     model: 'Mark IIc+ Cap Mod',
     genre: ['Rock', 'Metal'],
-    power: '',
+    power: '-',
     confirmed: false
   },
   {

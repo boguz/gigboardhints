@@ -2,7 +2,6 @@ export const populatePresets = (presetsData) => {
   const presetsContainer = document.querySelector('.section--presets .gearlist')
   presetsContainer.innerHTML = ''
   presetsData.forEach(preset => {
-    console.log(preset)
     const presetItem = document.createElement('div')
     presetItem.classList.add('gearlist__item')
 
