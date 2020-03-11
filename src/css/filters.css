@@ -1,0 +1,18 @@
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.filters__select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    background-color: var(--color-grey-dark);
+    border: 1px solid var(--color-grey-middle);
+    color: var(--color-grey-middle);
+    padding: .5rem 1rem;
+    border-radius: var(--border-radius);
+    outline: none;
+}

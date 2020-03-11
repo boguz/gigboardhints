@@ -1,27 +1,38 @@
-
 .gearlist__item {
     background-color: var(--color-grey-dark);
     border-radius: 2px;
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
     display: grid;
-    grid-template-columns: 2fr 1fr 4fr 2fr 50px 1rem;
     padding: .5rem 1rem;
     align-items: center;
     color: var(--color-grey-light);
     font-size: .875rem;
 }
 
+.section--amps .gearlist__item {
+    grid-template-columns: 2fr 1fr 4fr 2fr 50px 1rem;
+}
+
+.section--cabs .gearlist__item,
+.section--mics .gearlist__item,
+.section--fxs .gearlist__item {
+    grid-template-columns: 2fr 1fr 4fr 2fr 1rem;
+}
+
+.section--presets .gearlist__item {
+    grid-template-columns: 2fr 2fr 2fr 1rem;
+}
+
 .gearlist__title {
     color: var(--section-color);
     text-transform: uppercase;
-    font-weight: var(--font-black);
+    font-weight: var(--font-medium);
 }
 
-.gearlist__genre {
-    opacity: .5;
-}
-
-.gearlist__power {
+.gearlist__genres,
+.gearlist__power,
+.gearlist__type,
+.gearlist__speaker {
     opacity: .5;
 }
 

@@ -1,5 +1,21 @@
-#ampsPage {
+.section--amps {
     --section-color: var(--color-cyan);
+}
+
+.section--cabs {
+    --section-color: var(--color-green);
+}
+
+.section--mics {
+    --section-color: var(--color-yellow);
+}
+
+.section--fxs {
+    --section-color: var(--color-red);
+}
+
+.section--presets {
+    --section-color: var(--color-purple);
 }
 
 .section {

@@ -77,10 +77,20 @@
         <button class="disclaimer__open-button">Disclaimer</button>
     </section>
 
-    <section id="ampsPage" class="section" hidden>
+    <section id="ampsPage" class="section section--amps" hidden>
         <h2 class="section__title">Amps</h2>
 
-        <div class="filters">Here will come the filter</div>
+        <div class="filters">
+            <select class="filters__select" name="ampsSelect" id="ampsSelect">
+                <option value="">Order by</option>
+                <option value="1">Name</option>
+                <option value="2">Brand</option>
+                <option value="3">Model</option>
+                <option value="4">Genre</option>
+                <option value="5">Power</option>
+                <option value="6">Confirmed</option>
+            </select>
+        </div>
 
         <div class="gearlist">
             <div class="gearlist__item">
@@ -116,6 +126,7 @@
                 <span class="gearlist__confirmed" confirmed></span>
             </div>
         </div>
+
     </section>
 
 
@@ -124,10 +135,79 @@
 
 
 
-    <section id="cabsPage" class="section" hidden>Cabs section</section>
-    <section id="micsPage" class="section" hidden>Mics section</section>
-    <section id="fxsPage" class="section" hidden>FXs section</section>
-    <section id="presetsPage" class="section" hidden>Presets section</section>
+    <section id="cabsPage" class="section section--cabs" hidden>
+        <h2 class="section__title">Cabs</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="cabsSelect" id="cabsSelect">
+                <option value="">Order by</option>
+                <option value="1">Name</option>
+                <option value="2">Brand</option>
+                <option value="3">Model</option>
+                <option value="4">Genre</option>
+                <option value="5">Power</option>
+                <option value="6">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
+    <section id="micsPage" class="section section--mics" hidden>
+        <h2 class="section__title">Mics</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="micsSelect" id="micsSelect">
+                <option value="">Order by</option>
+                <option value="1">Name</option>
+                <option value="2">Brand</option>
+                <option value="3">Model</option>
+                <option value="4">Genre</option>
+                <option value="5">Power</option>
+                <option value="6">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+
+    </section>
+
+    <section id="fxsPage" class="section section--fxs" hidden>
+        <h2 class="section__title">Fxs</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="fxsSelect" id="fxsSelect">
+                <option value="">Order by</option>
+                <option value="1">Name</option>
+                <option value="2">Brand</option>
+                <option value="3">Model</option>
+                <option value="4">Genre</option>
+                <option value="5">Power</option>
+                <option value="6">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
+    <section id="presetsPage" class="section section--presets" hidden>
+        <h2 class="section__title">Presets</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="presetsSelect" id="presetsSelect">
+                <option value="">Order by</option>
+                <option value="1">Name</option>
+                <option value="2">Brand</option>
+                <option value="3">Model</option>
+                <option value="4">Genre</option>
+                <option value="5">Power</option>
+                <option value="6">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
     <section id="linksPage" class="section" hidden>Links section</section>
 </main>
 
