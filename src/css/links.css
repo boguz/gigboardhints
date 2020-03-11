@@ -1,0 +1,24 @@
+.links__text {
+    font-weight: var(--font-thin);
+    color: var(--color-grey-light);
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    line-height: 1.7;
+}
+
+.links__link {
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: var(--color-yellow);
+    transition: color .25s ease-out;
+}
+
+.links__link:before {
+    content: '•';
+    margin-right: .5rem;
+}
+
+.links__link:hover {
+    color: var(--color-red);
+}

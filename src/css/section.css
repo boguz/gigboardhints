@@ -18,6 +18,10 @@
     --section-color: var(--color-purple);
 }
 
+.section--links {
+    --section-color: var(--color-blue);
+}
+
 .section {
     padding: 3rem 2rem 0;
     position: relative;

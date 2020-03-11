@@ -104,7 +104,7 @@ const update = () => {
   updateNav()
   updatePage()
 
-  if (store.page !== 'home') {
+  if (store.page !== 'home' && store.page !== 'links') {
     populateGearList(store.page)
   }
 }
