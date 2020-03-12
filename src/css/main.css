@@ -3,3 +3,9 @@ main {
     padding: 0 0 0 240px;
     min-height: 100vh;
 }
+
+@media screen and (max-width: 920px) {
+    main {
+        padding: 0;
+    }
+}

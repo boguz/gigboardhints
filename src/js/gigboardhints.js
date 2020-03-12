@@ -1,11 +1,14 @@
-// import needed function
+// import needed functions
 import {gigboardHintsStore} from './store'
 import {disclaimerInit} from './disclaimer'
+import {burger} from './burger'
 import {populateAmps} from './amps'
 import {populateCabs} from './cabs'
 import {populateMics} from './mics'
 import {populateFxs} from './fxs'
 import {populatePresets} from './presets'
+
+import {closeNav} from './burger'
 
 // Create a store to use
 const store = gigboardHintsStore
@@ -14,6 +17,7 @@ const store = gigboardHintsStore
 document.addEventListener('DOMContentLoaded', () => {
   addEventListeners()
   disclaimerInit()
+  burger()
 
   update()
 })
@@ -68,6 +72,7 @@ const handleNavButtonClick = event => {
   if (newPage !== store.page) {
     setNewPage(newPage)
   }
+  closeNav()
 }
 
 // Handle click on a home page button
@@ -79,6 +84,7 @@ const handleHomePageButtonClick = event => {
 // Handle click on the nav logo
 const handleNavLogoClick = () => {
   setNewPage('homePage')
+  closeNav()
 }
 
 

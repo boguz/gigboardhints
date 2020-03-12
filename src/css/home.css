@@ -39,12 +39,15 @@
 
 .home__buttons {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .home__button {
     outline: none;
     background-color: var(--color-grey-dark);
-    margin: 0 .5rem;
+    margin: 0 .5rem 1rem;
     width: 120px;
     height: 120px;
     display: flex;

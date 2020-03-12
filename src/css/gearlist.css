@@ -3,6 +3,7 @@
     border-radius: 2px;
     margin-bottom: .5rem;
     display: grid;
+    grid-gap: .5rem;
     padding: .5rem 1rem;
     align-items: center;
     color: var(--color-grey-light);
@@ -50,4 +51,87 @@
 .gearlist__confirmed[confirmed] {
     background-color: var(--section-color);
     opacity: 1;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* AMPS */
+    .section--amps .gearlist__item {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .section--amps .gearlist__model {
+        grid-column: 2 / 7;
+    }
+
+    .section--amps .gearlist__genres {
+        grid-column: 1 / 5;
+    }
+
+    .section--amps .gearlist__power {
+        grid-column: 5 / 6;
+    }
+
+    .section--amps .gearlist__confirmed {
+        grid-column: 6 / 7;
+    }
+
+    /* CABS, MICS, FXS */
+    .section--cabs .gearlist__item,
+    .section--mics .gearlist__item,
+    .section--fxs .gearlist__item {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .section--cabs .gearlist__model,
+    .section--mics .gearlist__model,
+    .section--fxs .gearlist__model {
+        grid-column: 2 / 6;
+    }
+
+    .section--cabs .gearlist__speaker,
+    .section--mics .gearlist__type,
+    .section--fxs .gearlist__type {
+        grid-column: 1 / 5;
+    }
+
+    .section--cabs .gearlist__confirmed,
+    .section--mics .gearlist__confirmed,
+    .section--fxs .gearlist__confirmed {
+        grid-column: 5 / 6;
+    }
+
+    /* PRESETS */
+
+    .section--presets .gearlist__item {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .section--presets .gearlist__title {
+        grid-column: 1 / 3;
+    }
+
+    .section--presets .gearlist__band {
+        grid-column: 3 / 5;
+    }
+
+    .section--presets .gearlist__band {
+        grid-column: 5 / 6;
+    }
+
+
+    /* GLOBAL */
+    .gearlist__title {
+        grid-column: 1 / -1;
+    }
+
+    .gearlist__brand {
+        grid-column: 1 / 2;
+    }
+
+
+
+
+
+
 }

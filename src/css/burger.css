@@ -1,0 +1,65 @@
+.burger__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    z-index: 100;
+}
+
+@media screen and (min-width: 921px) {
+    .burger__container {
+        display: none;
+    }
+}
+
+.burger__button {
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.burger__button:hover {
+    cursor: pointer;
+}
+
+.burger__span {
+    width: 1.5rem;
+    height: 3px;
+    background-color: var(--color-yellow);
+    display: block;
+    position: absolute;
+    left: 3px;
+    transition: all .25s ease-out;
+}
+
+.burger__span--one {
+    top: 5px;
+    transform: rotate(0);
+}
+
+.burger__span--two {
+    top: 13px;
+}
+
+.burger__span--three {
+    top: 21px;
+    transform: rotate(0);
+}
+
+.burger__button--active .burger__span--one {
+    top: 13px;
+    transform: rotate(135deg);
+}
+
+.burger__button--active .burger__span--two {
+    opacity: 0;
+}
+
+.burger__button--active .burger__span--three {
+    top: 13px;
+    transform: rotate(-135deg);
+}
