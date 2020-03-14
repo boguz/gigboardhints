@@ -4,14 +4,14 @@ export const micsData = [
     brand: 'Neumann',
     model: 'U67',
     type: 'Condenser',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: 'Cond 87',
     brand: 'Neumann',
     model: 'U87',
     type: 'Condenser',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: 'Cond 414',
@@ -25,7 +25,7 @@ export const micsData = [
     brand: 'Shure',
     model: 'SM7',
     type: 'Dynamic',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: 'Dyn 12',
@@ -46,7 +46,7 @@ export const micsData = [
     brand: 'Shure',
     model: 'SM57 Unidyne II',
     type: 'Dynamic',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: 'Dyn 409',
@@ -67,6 +67,6 @@ export const micsData = [
     brand: 'Royer',
     model: ' Royer 121',
     type: 'Ribbon',
-    confirmed: false
+    confirmed: true
   },
 ]

@@ -145,7 +145,7 @@ export const presetsData = [
   },
   {
     preset: '025 Daddy\'s New Bag',
-    band: 'james Brown',
+    band: 'James Brown',
     song: 'Papa\'s got a brand new bag',
     confirmed: false
   },
@@ -445,7 +445,7 @@ export const presetsData = [
   },
   {
     preset: '075 Life is good',
-    band: 'joe Walsh',
+    band: 'Joe Walsh',
     song: 'Life\'s been good so far',
     confirmed: false
   },
@@ -643,7 +643,7 @@ export const presetsData = [
   },
   {
     preset: '108 Girls x 3',
-    band: 'motley Crue',
+    band: 'Motley Crue',
     song: 'Girls, girls, girls',
     confirmed: false
   },
@@ -1021,7 +1021,7 @@ export const presetsData = [
   },
   {
     preset: '170 Jalapeno',
-    band: 'red Hot Chilli Peppers',
+    band: 'Red Hot Chilli Peppers',
     song: '-',
     confirmed: false
   },
@@ -1321,8 +1321,8 @@ export const presetsData = [
   },
   {
     preset: '220 Prisionbreak',
-    band: 'thin Lizzy',
-    song: 'jail Break',
+    band: 'Thin Lizzy',
+    song: 'Jail Break',
     confirmed: false
   },
   {

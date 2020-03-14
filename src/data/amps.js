@@ -13,7 +13,7 @@ export const ampsData = [
     model: 'Bassman',
     genre: ['Blues', 'Rock', 'Country'],
     power: '-',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: '59 Tweed Prince',

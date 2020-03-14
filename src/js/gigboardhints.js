@@ -109,22 +109,24 @@ const getOrderedData = (contentType, orderBy) => {
   const dataName = `${contentType}Data`
   const originalData = [...store[dataName]]
   const orderedData = originalData.sort((a, b) => {
-    // console.table('a', a, a[orderBy], 'b', b, b[orderBy], a[orderBy] < b[orderBy], a[orderBy] === '-', typeof a[orderBy])
-    console.table({
-      'orderBy': orderBy,
-      'a': a,
-      'a[orderBy]': a[orderBy],
-      'b': b,
-      'b[orderBy]': b[orderBy],
-      'a[orderBy] < b[orderBy]': a[orderBy] < b[orderBy],
-      'a[orderBy] === "-"': a[orderBy] === '-',
-      'typeof a[orderBy]': typeof a[orderBy]
-    })
+    // console.table({
+    //   'orderBy': orderBy,
+    //   'a': a,
+    //   'a[orderBy]': a[orderBy],
+    //   'b': b,
+    //   'b[orderBy]': b[orderBy],
+    //   'a[orderBy] < b[orderBy]': a[orderBy] < b[orderBy],
+    //   'a[orderBy] === "-"': a[orderBy] === '-',
+    //   'typeof a[orderBy]': typeof a[orderBy]
+    // })
 
     if (typeof a[orderBy] === 'object') {
+      console.log(a[orderBy])
       return -1
     }
     if (typeof b[orderBy] === 'object') {
+      console.log(b[orderBy])
+
       return 1
     }
     if (a[orderBy] === '-') {
@@ -139,8 +141,10 @@ const getOrderedData = (contentType, orderBy) => {
     if (a[orderBy] > b[orderBy]) {
       return 1
     }
-
-    return 0
+    if (a[orderBy] == b[orderBy]) {
+      return 0
+    }
+    
   })
 
   return orderedData

@@ -11,7 +11,7 @@ export const cabsData = [
     brand: 'Fender',
     model: '64 Blackface Delux Reverb',
     speaker: 'Jensen P12N',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: '1x12 Tweed Lux',

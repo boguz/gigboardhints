@@ -32,7 +32,7 @@ export const fxsData = [
     brand: 'Ibanez',
     model: 'TS-808 Tube Screamer',
     type: 'distortion',
-    confirmed: false
+    confirmed: true
   },
   {
     headrushName: 'Tri Fuzz',
