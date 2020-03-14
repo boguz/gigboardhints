@@ -2,8 +2,14 @@
     font-weight: var(--font-thin);
     color: var(--color-grey-light);
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
     line-height: 1.7;
+}
+
+.links__text:before {
+    content: '\02015';
+    margin-right: .5rem;
 }
 
 .links__link {
