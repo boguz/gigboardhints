@@ -28,7 +28,8 @@
     "print:end": "echo \"\\033[32m==============================================================\\n==              Gigboardhints build successful              ==\\n==============================================================\"",
     "build": "npm run clean:build && npm run lint && npm run bundle:all && npm run copy:all && npm run --silent print:end",
     "lint": "eslint src/",
-    "serve": "http-server"
+    "serve": "http-server",
+    "deploy": "git subtree push --prefix build origin gh-pages"
   },
   "repository": {
     "type": "git",

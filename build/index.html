@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A simple website with information about the great gear that inspired the possibilities in the Headrush Gigboard">
+    <meta name="keywords" content="Headrush, Gigboard, Guitar, Effects, Gear, Amplifier, Amp, Cabinet, Cab, Microphone, Mic, Presets, Pedalboard">
+    <meta name="author" content="Boguz">
+    <title>GIGBOARDhints</title>
+
+    <link href="./css/gigboardhints.css" rel="stylesheet">
+
+    <script src="./js/gigboardhints.min.js"></script>
+</head>
+<body>
+
+<div class="burger__container">
+    <button class="burger__button">
+        <span class="burger__span burger__span--one"></span>
+        <span class="burger__span burger__span--two"></span>
+        <span class="burger__span burger__span--three"></span>
+    </button>
+</div>
+
+<nav class="nav">
+    <h1 class="nav__title"><span class="text--bold">GIGBOARD</span><span class="text--thin">HINTS</span></h1>
+
+    <ul class="nav__list">
+        <li class="nav__item nav__item--amps" pageName="ampsPage">
+            <a href="#" class="nav__link">Amps</a>
+        </li>
+        <li class="nav__item nav__item--cabs" pageName="cabsPage">
+            <a href="#" class="nav__link">Cabs</a>
+        </li>
+        <li class="nav__item nav__item--mics" pageName="micsPage">
+            <a href="#" class="nav__link">Mics</a>
+        </li>
+        <li class="nav__item nav__item--fxs" pageName="fxsPage">
+            <a href="#" class="nav__link">FXs</a>
+        </li>
+        <li class="nav__item nav__item--presets" pageName="presetsPage">
+            <a href="#" class="nav__link">Presets</a>
+        </li>
+        <li class="nav__item nav__item--links" pageName="linksPage">
+            <a href="#" class="nav__link">Links</a>
+        </li>
+    </ul>
+
+    <div class="nav__bottom">
+        <a href="#" class="nav__bottom-link">Collaborate</a>
+    </div>
+</nav>
+
+<div class="nav__scrim"></div>
+
+<main>
+    <section class="home section" id="homePage" hidden>
+        <h1 class="home__title">
+            <img class="home__title-image" src="./images/gigboard_icon.svg" alt="">
+            <span class="home__title-text">
+                <span class="text--bold">GIGBOARD</span><span class="text--thin">HINTS</span>
+            </span>
+        </h1>
+
+        <p class="home__text">Have you ever wondered what is the real gear behind the ones we have inside the Gigboard? Here is a little guide...</p>
+
+        <div class="home__buttons">
+            <button class="home__button home__button--amps" pageName="ampsPage">
+                <span class="home__button-image home__button-image--amps"></span>
+                <p class="home__button-text">amps</p>
+            </button>
+            <button class="home__button home__button--cabs" pageName="cabsPage">
+                <span class="home__button-image home__button-image--cabs"></span>
+                <p class="home__button-text">cabs</p>
+            </button>
+            <button class="home__button home__button--mics" pageName="micsPage">
+                <span class="home__button-image home__button-image--mics"></span>
+                <p class="home__button-text">mics</p>
+            </button>
+            <button class="home__button home__button--fxs" pageName="fxsPage">
+                <span class="home__button-image home__button-image--fxs"></span>
+                <p class="home__button-text">fxs</p>
+            </button>
+            <button class="home__button home__button--presets" pageName="presetsPage">
+                <span class="home__button-image home__button-image--presets"></span>
+                <p class="home__button-text">presets</p>
+            </button>
+        </div>
+
+        <button class="disclaimer__open-button">Disclaimer</button>
+    </section>
+
+    <section id="ampsPage" class="section section--amps" hidden>
+        <h2 class="section__title">Amps</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="ampsSelect" id="ampsSelect" contentType="amps">
+                <option value="">Order by</option>
+                <option value="title">Title</option>
+                <option value="brand">Brand</option>
+                <option value="model">Model</option>
+                <option value="genre">Genre</option>
+                <option value="power">Power</option>
+                <option value="confirmed">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+
+    </section>
+
+    <section id="cabsPage" class="section section--cabs" hidden>
+        <h2 class="section__title">Cabs</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="cabsSelect" id="cabsSelect" contentType="cabs">
+                <option value="">Order by</option>
+                <option value="title">Title</option>
+                <option value="brand">Brand</option>
+                <option value="model">Model</option>
+                <option value="speaker">Speaker</option>
+                <option value="confirmed">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
+    <section id="micsPage" class="section section--mics" hidden>
+        <h2 class="section__title">Mics</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="micsSelect" id="micsSelect" contentType="mics">
+                <option value="">Order by</option>
+                <option value="title">Title</option>
+                <option value="brand">Brand</option>
+                <option value="model">Model</option>
+                <option value="type">Type</option>
+                <option value="confirmed">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+
+    </section>
+
+    <section id="fxsPage" class="section section--fxs" hidden>
+        <h2 class="section__title">Fxs</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="fxsSelect" id="fxsSelect" contentType="fxs">
+                <option value="">Order by</option>
+                <option value="title">Title</option>
+                <option value="brand">Brand</option>
+                <option value="model">Model</option>
+                <option value="type">Type</option>
+                <option value="confirmed">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
+    <section id="presetsPage" class="section section--presets" hidden>
+        <h2 class="section__title">Presets</h2>
+
+        <div class="filters">
+            <select class="filters__select" name="presetsSelect" id="presetsSelect" contentType="presets">
+                <option value="">Order by</option>
+                <option value="title">Title</option>
+                <option value="band">Band</option>
+                <option value="song">Song</option>
+                <option value="confirmed">Confirmed</option>
+            </select>
+        </div>
+
+        <div class="gearlist"></div>
+    </section>
+
+    <section id="linksPage" class="section section--links" hidden>
+        <h2 class="section__title">Links</h2>
+        
+        <p class="links__text">Here is a list of places where i took inspiration and gathered information.</p>
+
+        <a class="links__link" href="https://www.headrushfx.com/products/gigboard" target="_blank">Headrush Website</a>
+        <a class="links__link" href="https://headrush.blog/" target="_blank">Headrush Blog</a>
+        <a class="links__link" href="https://www.headrushfx.com/kb/headrush-pedalboard-effect-and-control-list/" target="_blank">Headrush Website</a>
+        <a class="links__link" href="http://www.elevenrackpresets.com/ElevenRackampswithpics1.pdf" target="_blank">PDF with list of Eleven Rack Gear</a>
+        <a class="links__link" href="http://headrushfans.com/Thread-Where-can-I-find-out-what-all-the-preset-rig-settings-repesent" target="_blank">Headrush Fans Forum</a>
+    </section>
+</main>
+
+<div class="disclaimer__container">
+    <button class="disclaimer__close-button">x</button>
+    <div class="disclaimer__card">
+        <p class="disclaimer__text">I have no affiliation to any of the brands or products mentioned on this page. I created this website for myself, as an exercise to improve my programming skills, and then decided to hare it with other people who also might enjoy it. If there are ny problems with trademarsk, copyrights,..., please let me know and i will take care of it as soon as possible. All information provided here is either my own opinion or information i collected across the internet. None of it is official information.</p>
+    </div>
+</div>
+
+</body>
+</html>
