@@ -29,7 +29,7 @@
     "build": "npm run clean:build && npm run lint && npm run bundle:all && npm run copy:all && npm run --silent print:end",
     "lint": "eslint src/",
     "serve": "http-server",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "deploy": "npm run build && git subtree push --prefix build origin gh-pages"
   },
   "repository": {
     "type": "git",
