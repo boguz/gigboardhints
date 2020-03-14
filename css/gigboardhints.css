@@ -15,7 +15,7 @@
     --color-yellow: #F2D060;
     --color-purple: #BD51D6;
     --color-red: #F0513C;
-    --color-blue: #3693FF;
+    --color-blue: #67bbff;
 
     --transition-normal: color .25s ease-out;
 
@@ -590,8 +590,12 @@
     font-weight: var(--font-thin);
     color: var(--color-grey-light);
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
     line-height: 1.7;
+}.links__text:before {
+    content: '\02015';
+    margin-right: .5rem;
 }.links__link {
     display: block;
     margin-bottom: 1rem;
