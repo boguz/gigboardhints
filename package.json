@@ -14,7 +14,7 @@
     "rollup-plugin-alias": "^2.2.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-postcss": "^2.0.6",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^5.2.0"
   },
   "scripts": {
